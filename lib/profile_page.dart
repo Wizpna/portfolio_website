@@ -155,8 +155,8 @@ class ProfileInfo extends StatelessWidget {
         height: 10.0,
       ),
       Text(
-        "A Mobile App Developer, Flutter Specialist.\n"
-        "I am also an Assistant Senior Editor at Okay Nigeria (Okay.ng)",
+        "I'm a Mobile App Developer at Rad5 Tech Hub, Flutter Specialist.\n"
+        "and also an Assistant Senior Editor at Okay Nigeria (Okay.ng)",
         softWrap: true,
         textScaleFactor: 1.5,
         style: new TextStyle(color: Colors.white70),

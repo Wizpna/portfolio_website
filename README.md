@@ -3,13 +3,13 @@ My portfolio website built using flutter
 
 Web Screenshots:
 
-<img src="https://github.com/Wizpna/portfolio_website/blob/master/screenshots/portfolio.png"  title="portfolio_website_version">
-<img src="https://github.com/Wizpna/portfolio_website/blob/master/screenshots/portfolio%201.png"  title="portfolio_website_version">
+<img src="https://github.com/Wizpna/portfolio_website/blob/master/screenshots/Web_version_1.png"  title="portfolio_website_version">
+<img src="https://github.com/Wizpna/portfolio_website/blob/master/screenshots/Web_version_2.png"  title="portfolio_website_version">
 
 Mobile Screenshots:
 
-<img src="https://github.com/Wizpna/portfolio_website/blob/master/screenshots/portfolio%20mobile.png"  title="portfolio_mobile_version">
-<img src="https://github.com/Wizpna/portfolio_website/blob/master/screenshots/portfolio%20mobile%201.png"  title="portfolio_mobile_version">
+<img src="https://github.com/Wizpna/portfolio_website/blob/master/screenshots/mobile_version_1.png"  title="portfolio_mobile_version">
+<img src="https://github.com/Wizpna/portfolio_website/blob/master/screenshots/mobile_version_2.png"  title="portfolio_mobile_version">
 
 Link to my portfolio website: https://wizpna.github.io/portfolio_website/#/
 

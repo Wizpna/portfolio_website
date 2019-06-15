@@ -21,16 +21,19 @@ class _ProfilePageState extends State<ProfilePage> {
                 child: ListView(
                   padding: EdgeInsets.all(20.0),
                   children: <Widget>[
-                    NavButton(text: "about", onPressed: () {}),
-                    NavButton(text: "work", onPressed: () {}),
-                    NavButton(text: "contact", onPressed: () {}),
+                    NavButton(text: "About", onPressed: () {}),
+                    NavButton(text: "Work", onPressed: () {}),
+                    NavButton(text: "Contact", onPressed: () {}),
                   ],
                 ),
               )
             : null,
         body: SingleChildScrollView(
           child: AnimatedPadding(
-            padding: EdgeInsets.all(MediaQuery.of(context).size.height * 0.1),
+            padding: EdgeInsets.only(
+                left: MediaQuery.of(context).size.height * 0.1,
+                right: MediaQuery.of(context).size.height * 0.1,
+                bottom: MediaQuery.of(context).size.height * 0.1),
             duration: Duration(seconds: 1),
             child: ResponsiveWidget(
                 largeScreen: Column(
@@ -156,7 +159,7 @@ class ProfileInfo extends StatelessWidget {
       ),
       Text(
         "I'm a Mobile App Developer at Rad5 Tech Hub, Flutter Specialist.\n"
-        "and also an Assistant Senior Editor at Okay Nigeria (Okay.ng)",
+        "And also an Assistant Senior Editor at Okay Nigeria (Okay.ng)",
         softWrap: true,
         textScaleFactor: 1.5,
         style: new TextStyle(color: Colors.white70),
@@ -227,9 +230,9 @@ class NavHeader extends StatelessWidget {
           if (!ResponsiveWidget.isSmallScreen(context))
             Row(
               children: <Widget>[
-                NavButton(text: "about", onPressed: () {}),
-                NavButton(text: "work", onPressed: () {}),
-                NavButton(text: "contact", onPressed: () {}),
+                NavButton(text: "About", onPressed: () {}),
+                NavButton(text: "Work", onPressed: () {}),
+                NavButton(text: "Contact", onPressed: () {}),
               ],
             )
         ],
